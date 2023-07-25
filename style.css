@@ -100,7 +100,7 @@ p {
 }
 @media (max-width: 1200px) {
     .main-container {
-        width: 70%;
+        width: 90%;
     }
     input::placeholder {
         font-size: 14px;
@@ -109,7 +109,7 @@ p {
        margin-left: 70px;
     }
     h1 {
-        font-size: 23px;
-        margin-top: 15px;
+        font-size: 20px;
+        margin-top: 20px;
     }
 }
