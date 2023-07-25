@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <title>Weather Update</title>
+  </head>
+  <body>
+    <h1>Check Weather Conditions</h1>
+    <div class="main-container">
+      <div class="search">
+        <input type="text" placeholder="enter your location" />
+        <button>
+          <i class="icon search-box-icon fas fa-search"></i>
+        </button>
+      </div>
+      <div class="error">
+        <p>Oops! Invalid city name</p>
+      </div>
+      <div class="weather">
+        <h1 class="city">Location</h1>
+        <img class="weather-image" src="images/rain.png" alt="" />
+        <h2 class="temp">Temp</h2>
+        <p class="weatherDescription">weatherDescription</p>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
